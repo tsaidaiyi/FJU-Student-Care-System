@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parent"
+    tools:context=".ParentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/GPStracer"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:orientation="horizontal"
+            android:shadowColor="#E3E2E1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="歷史紀錄"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/RealGPStracer"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:shadowColor="#E3E2E1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="現在位置"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/addStudent"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:shadowColor="#E3E2E1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="新增學生"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:shadowColor="#E3E2E1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="登出"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

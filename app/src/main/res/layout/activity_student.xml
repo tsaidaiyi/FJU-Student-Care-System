@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/student"
+    tools:context=".StudentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/GPSExtract"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="120dp"
+            android:button="@drawable/selector"
+            android:background="@color/transparent_background"
+            android:checked="false"
+            android:textSize="15dp"
+            android:text="GPS"
+            android:textOff="開始"
+            android:textOn="停止" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="120dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape2"
+            android:text="登出" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
