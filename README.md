@@ -14,3 +14,28 @@ The APP is build for elementary and junior high school students.Allow teachers t
 # Requirement
 * Versions Below Android 9.0
 * Start GPS
+
+# User Interface
+## Login and Register
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/login%20and%20register.jpg)
+
+## Parents Register
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/parents%20register.jpg)
+
+## Student UI
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/studeny%20ui.jpg)
+
+## Teacher UI
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/teacher%20ui.jpg)
+
+## Parent UI
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/parent%20ui.jpg)
+
+## Real-time Location
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/real-time%20location.jpg)
+
+## All user Location
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/all%20user%20location.jpg)
+
+## History Record
+![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/hidtory%20record.jpg)
