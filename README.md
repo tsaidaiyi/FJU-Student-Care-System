@@ -16,6 +16,7 @@ The APP is build for elementary and junior high school students.Allow teachers t
 * Start GPS
 
 # User Interface
+https://youtu.be/UJwqApOjPlk
 ## Login and Register 
 ![image](https://github.com/tsaidaiyi/FJU-Student-Care-System/blob/main/app%20photo/login%20and%20register.jpg)
 
